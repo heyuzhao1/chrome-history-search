@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "History Search · 历史记录搜索",
+  "version": "1.0.0",
+  "description": "点击图标即可快速搜索、滑动浏览浏览历史记录。虚拟滚动 + 游标分页，高性能。",
+  "permissions": ["history", "favicon"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "搜索历史记录",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

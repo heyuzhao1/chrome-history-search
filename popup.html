@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="bar">
+    <input id="search" type="text" placeholder="搜索历史记录（标题 / 网址）…" autocomplete="off" autofocus spellcheck="false" />
+    <span id="status" class="status"></span>
+  </div>
+  <div id="list" class="list">
+    <div id="spacer" class="spacer"></div>
+    <div id="empty" class="empty" hidden>没有匹配的历史记录</div>
+  </div>
+  <div class="hint">↑↓ 选择 · Enter 打开(新标签) · Ctrl+Enter 后台打开 · Del 删除 · Esc 清空/关闭</div>
+  <script src="popup.js"></script>
+</body>
+</html>

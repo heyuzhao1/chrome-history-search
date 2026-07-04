@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node (future tooling, if any)
+node_modules/
+package-lock.json
+
+# Build / packaging output
+dist/
+build/
+*.zip
+history-search-v*.zip
+
+# Local notes
+TODO.local.md
