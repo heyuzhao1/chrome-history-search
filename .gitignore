@@ -18,7 +18,7 @@ package-lock.json
 dist/
 build/
 *.zip
-history-search-v*.zip
+chrome-history-search-v*.zip
 
 # Local notes
 TODO.local.md
