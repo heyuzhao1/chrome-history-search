@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "History Search · 历史记录搜索",
   "version": "1.0.0",
-  "description": "点击图标即可快速搜索、滑动浏览浏览历史记录。虚拟滚动 + 游标分页，高性能。",
+  "description": "Chrome 标签页搜索的进阶版：点击图标即时搜索、滑动浏览你的全部浏览历史。虚拟滚动 + 游标分页，高性能。",
   "permissions": ["history", "favicon"],
   "action": {
     "default_popup": "popup.html",

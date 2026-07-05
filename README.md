@@ -1,9 +1,9 @@
 # History Search · 历史记录搜索
 
-> 重新带回 Chrome 工具栏里那个被移除的「历史记录快速搜索」弹窗。
-> 点击图标即可即时搜索或滑动浏览你的全部浏览历史。
+> Chrome 自带「标签页搜索」的进阶版——不只搜当前标签页，而是即时检索、滑动浏览你的全部浏览历史。
+> 点击工具栏图标即弹出搜索框。
 
-A high-performance Manifest V3 Chrome / Edge extension. Virtualized list + cursor pagination keep it smooth even with tens of thousands of history entries. Zero dependencies, no build step.
+An advanced take on Chrome's built-in Tab Search — search and scroll through your full browsing history, not just open tabs. High-performance Manifest V3 extension: virtualized list + cursor pagination, zero dependencies, no build step.
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Chrome](https://img.shields.io/badge/Chrome-Manifest%20V3-4285F4.svg)](https://developer.chrome.com/docs/extensions/mv3/intro/)
@@ -17,11 +17,11 @@ A high-performance Manifest V3 Chrome / Edge extension. Virtualized list + curso
 
 ## 📝 初衷
 
-Chrome 曾在工具栏右上角（扩展、下载图标的附近）提供一个特别好用的历史记录搜索小弹窗：点一下就能即时检索、滑动浏览浏览历史。可惜在某个新版本里，Chrome 把这个功能移除了。
+Chrome 自带一个「标签页搜索」功能（工具栏右上角那个下拉小弹窗），但它只能搜当前打开的标签页和最近关闭的几条，想翻更早的浏览历史就无能为力。
 
-我很喜欢这个功能，不想就这样失去它——于是有了这个扩展。它把那个被删掉的小弹窗重新带回来，并在原版基础上做了性能强化：虚拟滚动 + 游标分页，即便历史积累到几万条也能秒开、丝滑滚动。
+这个扩展就是「标签页搜索」的进阶版：把搜索范围扩展到你的全部浏览历史，并在原版基础上做了性能强化——虚拟滚动 + 游标分页，即便历史积累到几万条也能秒开、丝滑滚动。
 
-如果你也怀念这个功能，希望它能帮到你。
+如果你也觉得自带的标签页搜索不够用，希望它能帮到你。
 
 ## ✨ 特性
 
@@ -89,7 +89,6 @@ history-search/
 ├── generate-icons.ps1     图标生成脚本
 ├── icons/                 16 / 48 / 128 图标
 ├── DESIGN.md              详细设计文档
-├── CONTRIBUTING.md        贡献指南
 ├── LICENSE                MIT
 └── README.md
 ```
